@@ -7,3 +7,21 @@ data/
 *.fasta
 *.fa
 *.zip
+# Flye intermediate directories
+results/04_flye/
+results/04_flye_run2/00-assembly/
+results/04_flye_run2/10-consensus/
+results/04_flye_run2/20-repeat/
+results/04_flye_run2/30-contigger/
+results/04_flye_run2/40-polishing/
+
+# Large assembly outputs
+results/04_flye_run2/assembly.fasta
+results/04_flye_run2/assembly_graph.gfa
+results/04_flye_run2/assembly_graph.gv
+
+# QUAST output (large + many files)
+results/05_quast/
+
+# Slurm logs
+slurm/

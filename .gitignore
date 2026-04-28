@@ -25,3 +25,15 @@ results/05_quast/
 
 # Slurm logs
 slurm/
+
+results/*
+!results/**/report.txt
+!results/**/short_summary*.txt
+!results/**/assembly_info.txt
+!results/**/*.log
+!results/**/params.json
+
+*.bam
+*.fasta
+*.fa
+*.gfa
